@@ -113,6 +113,10 @@ int main()
         case 6:
             printf("\n\tTHANK YOU :)");
             break;
+        default:
+            printf("\nENTER VALID INDEX\n\n");
+            main();
+            break;
     }
     return 0;
 }
