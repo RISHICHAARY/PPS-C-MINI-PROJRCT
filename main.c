@@ -27,15 +27,14 @@ int addbook(int i)
 int addborrower(int i){
     printf("\n\nEnter Name: ");
     scanf("%s",Borrower[i].Name);
-    printf("\nEnter Book ID: ");
+    printf("Enter Book ID: ");
     scanf("%s",Borrower[i].Bookid);
-    printf("\nEnter Book Name: ");
+    printf("Enter Book Name: ");
     scanf("%s",Borrower[i].Bookname);
-    printf("\nEnter Borrowed Date: ");
+    printf("Enter Borrowed Date: ");
     scanf("%s",Borrower[i].Borroweddate);
-    printf("\nEnter Due Date: ");
+    printf("Enter Due Date: ");
     scanf("%s",Borrower[i].Duedate);
-    printf("%s %s %s %s %s",Borrower[i].Name,Borrower[i].Bookid,Borrower[i].Bookname,Borrower[i].Borroweddate,Borrower[i].Duedate);
     printf("\n\tSUCCESSFULLY ADDED\n\n");
     return 0;
 }
